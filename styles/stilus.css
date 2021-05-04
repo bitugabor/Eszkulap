@@ -13,23 +13,23 @@ header img {
 
 nav{float: right; width: 800px; margin: 00px 250px 00px 00px;	font-size: 14px;	font-style: normal;	font-weight: bold; display: table-cell;}
             
-            ul{list-style: none;}
+            nav ul{list-style: none;}
             
-            ul li{ width: 120px; background: #000000; float: right; height: 75px; line-height: 70px; text-align: center; margin: 0x; position: relative;}
+            nav ul li{ width: 120px; background: #000000; float: right; height: 75px; line-height: 70px; text-align: center; margin: 0x; position: relative;}
             
-            ul li:hover{ background: #474747;}
+            nav ul li:hover{ background: #474747;}
             
-            ul li a{color: #fff; text-decoration: none; font-family: sans-serif; display: block;}
+            nav ul li a{color: #fff; text-decoration: none; font-family: sans-serif; display: block;}
             
-            ul li ul li{ border-top: 1px solid #fff;}
+            nav ul li ul li{ border-top: 1px solid #fff;}
             
-            ul li ul{display: none;}
+            nav ul li ul{display: none;}
             
-            ul li:hover ul{ display: block;}
+            nav ul li:hover ul{ display: block;}
             
-            ul li ul .itam-2{position: absolute; left: 122px; top: 0; display: none;}
+            nav ul li ul .itam-2{position: absolute; left: 122px; top: 0; display: none;}
             
-            ul li ul li:last-child:hover .itam-2{display: block;}
+            nav ul li ul li:last-child:hover .itam-2{display: block;}
             
             section{width: 800px; margin: 00px; background: #e1e1e1;}
             
@@ -42,23 +42,16 @@ div#wrapper {
     margin: 00px;
 }
 
+h3 {
+    font-size: 25px;
+}
 
 
 div#content {
     display: table-cell;
     width: 100%;
     border-radius: 10px;
-    background-color: #99FFCC;
     padding: 15px;
-}
-
-div#content img{
-    float: right;
-    width: 20em;
-    height: auto;
-    margin: 0 0 15px 15px;
-    padding: 3px;
-    border: 3px solid blue;
 }
 
 footer {
@@ -68,3 +61,74 @@ footer {
     background-color: #CC99FF;
 }
 
+.piros {
+    color:#ff0000;
+    text-align: center;
+    font-size: 25px;
+}
+.jobb {
+    text-align: right;
+}
+
+.kozep {
+    text-align: center;
+}
+
+.p_kozep {
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.p_kozep_suru {
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.p_jobb {
+    font-size: 20px;
+    text-align: right;
+    line-height: 35px;
+    margin: 00px 10px;
+}
+
+.p_bal {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: left;
+    line-height: 35px;
+    margin: 00px 10px;
+}
+
+.p_bal_suru {
+    font-size: 20px;
+    text-align: left;
+    line-height: 20px;
+    margin: 00px 10px;
+}
+
+.kepkozep {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.cimlap_tomb {
+    margin: 20px 15%;
+    border: 1px solid #000000;
+}
+#felsorolas {
+    font-size: 20px;
+    padding: 00px 00px 00px 350px;
+}
+
+#szabalyok_kep {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 50%;
+  }

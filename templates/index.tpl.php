@@ -38,6 +38,7 @@
         
         <div id="content">
             <?php include("./templates/pages/{$keres['fajl']}.tpl.php"); ?>
+			
         </div>
     </div>
     <footer>

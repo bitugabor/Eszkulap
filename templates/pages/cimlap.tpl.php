@@ -1,11 +1,52 @@
-<h2>Köszöntés</h2>
-<img src="./images/arc.jpg">
-<h3>Mi a Lorem Ipsum?</h3>
-<p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.</p>
-<h3>Honnan származik?</h3>
-<p>A hiedelemmel ellentétben a Lorem Ipsum nem véletlenszerû szöveg. Gyökerei egy Kr. E. 45-ös latin irodalmi klasszikushoz nyúlnak. Richarrd McClintock a virginiai Hampden-Sydney egyetem professzora kikereste az ismeretlenebb latin szavak közül az egyiket (consectetur) egy Lorem Ipsum részletbõl, és a klasszikus irodalmat átkutatva vitathatatlan forrást talált. A Lorem Ipsum az 1.10.32 és 1.10.33-as de Finibus Bonoruem et Malorum részleteibõl származik (A Jó és Rossz határai - Cicero), Kr. E. 45-bõl. A könyv az etika elméletét tanulmányozza, ami nagyon népszerû volt a reneszánsz korban. A Lorem Ipsum elsõ sora, Lorem ipsum dolor sit amet.. a 1.10.32-es bekezdésbõl származik.</p>
-<p>A Lorem Ipsum alaprészlete, amit az 1500-as évek óta használtak, az érdeklõdõk kedvéért lent újra megtekinthetõ. Az 1.10.32 és 1.10.33-as bekezdéseket szintén eredeti formájukban reprodukálták a hozzá tartozó angol változattal az 1914-es fordításból H. Rackhamtól.</p>
-<h3>Miért használjuk?</h3>
-<p>Ez egy régóta elfogadott tény, miszerint egy olvasót zavarja az olvasható szöveg miközben a szöveg elrendezését nézi. A Lorem Ipsum használatának lényege, hogy többé-kevésbé rendezettebb betûket tartalmaz, ellentétben a Tartalom helye, Tartalom helye-féle megoldással. Sok desktop szerkesztõ és weboldal szerkesztõ használja a Lorem Ipsum-ot mint alapbeállítású szövegmodellt, és egy keresés a lorem ipsum-ra sok félkész weboldalt fog eredményezni.</p>
-<h3>Honnan szerezhető be?</h3>
-<p>A Lorem Ipsum részleteinek sok változata elérhetõ, de a legtöbbet megváltoztatták egy kis humorral és véletlenszerûen kiválasztott szavakkal, amik kicsit sem teszik értelmessé. Ha használni készülsz a Lorem Ipsumot, biztosnak kell lenned abban, hogy semmi kínos sincs elrejtve a szöveg közepén. Az összes internetes Lorem Ipsum készítõ igyekszik elõre beállított részleteket ismételni a szükséges mennyiségben, ezzel téve az internet egyetlen igazi Lorem Ipsum generátorává ezt az oldalt. Az oldal körülbelül 200 latin szót használ, egy maroknyi modell-mondatszerkezettel így téve a Lorem Ipsumot elfogadhatóvá. Továbbá az elkészült Lorem Ipsum humortól, ismétlõdéstõl vagy értelmetlen szavaktól mentes.</p>
+<style>
+body {
+  background-image: url('./images/eszkulap_hatter01.jpg');
+  
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+
+</style>
+
+<div class="cimlap_tomb">
+    <h3 class="piros">ÖRÖKBE SZERETNÉK FOGADNI!</h3>
+    <h3 class="kozep">Minden fontos információ az örökbefogadásról a Bővebben gombra kattintva jelenik meg.</h3>
+    <h3 class="jobb">Bővebben...</h3>
+</div>
+
+<div class="cimlap_tomb">
+    <h2 class="kozep">TISZTELT TÁMOGATÓINK!</h2><br><p class="p_kozep">Egyesületünk azon szerencsés szervezetek közé tartozhat, akik számára 2021. májusától megnyílt a telefonos adománygyűjtés lehetősége.<br>
+    Az adományvonalon keresztül hívásonként, sms-enként 500,- Ft-tal támogatja az egyesület tevékenységét.<br>
+    <img src="./images/adjukossze.png" alt="adjukossze kep" class="kepkozep" style="width:400px;">
+Az adományvonalon keresztüli támogatási formát azon magyarországi előfizetők vehetik igénybe, akik az alábbi szolgáltatókkal állnak szerződéses kapcsolatban:</p>
+<ul id="felsorolas">
+  <li>Magyar Telekom Nyrt.</li>
+  <li>Telenor Magyarország Zrt és</li>
+  <li>Vodafone Magyarország Zrt.</li>
+</ul>
+<p class="p_bal_suru">Az Egyesület külön kérésre az adományokról adományigazolást állít ki, melyhez kérjük az alábbi adatokat szíveskedjenek megküldeni az eszkulap2016@gmail.com emailre: az adományozó neve, székhelye (lakcíme), adószám (cég esetén) és kérjük jelöljék, hogy melyik kampányunkhoz csatlakozott az adományával.</p>
+<p class="p_bal">
+Az aktuális támogatási célról az egyesület honlapján és Facebook profilján is tájékoztatást fogunk közzétenni.
+<br>
+2021. május hónap a Veterán Vitalitás kampányé.
+<br>
+Megtisztelő segítséget ezúton is megköszönjük:
+</p>
+<p class="p_jobb">Eszkuláp Egyesület</p>
+</div>
+<div class="cimlap_tomb">
+<h3 class="kozep">
+VÁLTOZÁSOK...</h3>
+<p class="p_kozep_suru">
+Előzetes bejelentkezéssel (nem minden nap és nem minden idősávban tudunk látogatókat fogadni) tudtok jönni sétáltatni. Védenceink nagyon igénylik a kinti sétákat, most már talán a jóidő is adott lesz hozzá. Azt kérjük, hogy öltözzetek "elkoszolhatóan", még mindig van, aki a féltett, hófehér cipőjében érkezik... Egy kutyára szánjatok legalább 30-60 percet, hogy valóban érdemi időt tölthessen tőlünk távol.<br><br>
+
+Ahová jöhettek ➡️<br>
+Mányi Menedék: 70/5257522<br>
+Mányi Ebkert: 70/ 6290545<br>
+Tárnok, kutyapanzió: 70/2263420<br>
+Budapest, 17. kerület, kutyapanzió: eszkulap2016@gmail.com<br>
+Pócsmegyer-Surány, kutyapanzió: eszkulap2016@gmail.com<br>
+Szeretettel várunk titeket!
+</p>
+<img src="./images/szabalyok.jpeg" alt="szabalyok kep" id="szabalyok_kep" style="width:300px;">
+</div>
