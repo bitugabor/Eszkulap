@@ -50,3 +50,20 @@ Szeretettel várunk titeket!
 </p>
 <img src="./images/szabalyok.jpeg" alt="szabalyok kep" id="szabalyok_kep" style="width:300px;">
 </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <embed src="sample.mp4" autostart="false" height="300" width="500" />
+<?php
+    // Alkalmazás logika:
+    include('config.inc.php');
+    
+    // adatok összegyűjtése:    
+    $kepek = array();
+    $olvaso = opendir($MAPPA);
+    while (($fajl = readdir($olvaso)) !== false)
+        if (is_file($MAPPA.$fajl)) {
+            $vege = strtolower(substr($fajl, strlen($fajl)-4));
+            if (in_array($vege, $TIPUSOK))
+                $kepek[$fajl] = filemtime($MAPPA.$fajl);            
+        }
+    closedir($olvaso);
+    ?>
