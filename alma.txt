@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Hello Bitu!
+#Ez egy komment! ./alma.txt -vel tudod lefuttatni
