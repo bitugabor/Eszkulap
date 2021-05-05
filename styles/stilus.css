@@ -119,6 +119,13 @@ footer {
     margin: 20px 15%;
     border: 1px solid #000000;
 }
+
+.kepfeltoltes {
+    margin: 20px 15%;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
 #felsorolas {
     font-size: 20px;
     padding: 00px 00px 00px 350px;

@@ -10,7 +10,12 @@
     </style>
     </head>
     <body>
-    
+    <div class="kepfeltoltes"><?php if(isset($_SESSION['login'])) { ?><strong>Kedves <?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><form action="upload.php" method="post" enctype="multipart/form-data">
+  <br>Kérem válassza ki a képet a  feltöltéshez:<br>
+
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Kép feltöltése" name="submit">
+</form><?php } ?></div>
 <?php
     // Alkalmazás logika:
     include('config.inc.php');
@@ -44,11 +49,7 @@
     }
     ?>
     </div>
-<form action="upload.php" method="post" enctype="multipart/form-data">
-  Válassza ki a képet a  feltöltéshez:
-  <input type="file" name="fileToUpload" id="fileToUpload">
-  <input type="submit" value="Kép feltöltése" name="submit">
-</form>
+
 
 </body>
 </html>
