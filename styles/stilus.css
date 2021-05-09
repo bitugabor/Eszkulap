@@ -46,6 +46,11 @@ h3 {
     font-size: 25px;
 }
 
+.cim {
+    text-align: center;
+    font-size: 36px;
+}
+
 
 div#content {
     display: table-cell;
@@ -122,7 +127,6 @@ footer {
 
 .kepfeltoltes {
     margin: 20px 15%;
-    text-align: center;
     border: 1px solid #000000;
 }
 
@@ -139,3 +143,16 @@ footer {
     margin-bottom: 60px;
     width: 50%;
   }
+
+#galeria {
+    position: relative;
+    margin: 10%;
+
+}
+
+#galeri {
+    width: 250px;
+}
+#feltoltes {
+    text-align: center;
+}

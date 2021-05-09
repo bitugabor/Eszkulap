@@ -1,6 +1,6 @@
 <?php
     // Alkalmazás logika:
-    include('config.inc.php');
+    include('./includes/config.inc.php');
     $uzenet = array();   
 
     // Űrlap ellenőrzés:
