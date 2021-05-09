@@ -1,7 +1,7 @@
 <?php
 try {
 // Kapcsolódás
-$pdo = new PDO('mysql:host=localhost;dbname=labor7', 'root', '', array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
+$pdo = new PDO('mysql:host=localhost;dbname=uziregi', 'root', '', array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
 $pdo->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
 $utasitas = "Select id, csaladi_nev, uto_nev, bejelentkezes";
 $eredm = $pdo->query($utasitas);

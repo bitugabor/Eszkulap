@@ -20,7 +20,7 @@ body {
 <?php
 try {
 // Kapcsolódás
-$pdo = new PDO('mysql:host=localhost;dbname=uzenetek', 'root', '',array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
+$pdo = new PDO('mysql:host=localhost;dbname=uziregi', 'root', '',array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
 $pdo->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
 $utasitas = "Select id, nev, email, szoveg from emailek";
 $eredm = $pdo->query($utasitas);

@@ -34,7 +34,7 @@
 
 	if($rendben==3) {
         try {
-            $dbh = new PDO('mysql:host=localhost;dbname=uzenetek', 'root', '',
+            $dbh = new PDO('mysql:host=localhost;dbname=uziregi', 'root', '',
                 array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
             $dbh->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
             $sqlInsert = "insert into emailek(id,nev,email,szoveg) values(0, :nev, :email, :szoveg)";
