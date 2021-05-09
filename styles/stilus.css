@@ -60,10 +60,11 @@ div#content {
 }
 
 footer {
-    border-radius: 10px;
+    
     margin: 10px;
     padding: 5px 20px;
-    background-color: #CC99FF;
+    background-color: #f73c3c;
+    color:#ffffff;
 }
 
 .piros {
@@ -155,4 +156,15 @@ footer {
 }
 #feltoltes {
     text-align: center;
+}
+#hireink {
+    float:right;
+    width: 250px;
+}
+.page_header {
+    text-align: center;
+}
+
+#hireinkszoveg {
+    margin: 10px 20%;
 }

@@ -1,6 +1,6 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Mini honlap Kft.',
+    'cim' => 'Bittermann és Donát maszek',
 );
 
 $fejlec = array(
@@ -12,7 +12,7 @@ $fejlec = array(
 
 $lablec = array(
     'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Mini honlap Kft.'
+    'ceg' => 'Bittermann és Donát maszek'
 );
 
 $oldalak = array(
@@ -21,7 +21,7 @@ $oldalak = array(
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'Kilépés', 'menun' => array(0,1)),
     'uzenetek' => array('fajl' => 'uzenetek', 'szoveg' => 'Üzenetek', 'menun' => array(1,1)),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menun' => array(1,1)),
-	'hireink' => array('fajl' => 'hireink', 'szoveg' => 'Híreink', 'menun' => array(1,1)),
+	'bemutatkozunk' => array('fajl' => 'bemutatkozunk', 'szoveg' => 'Bemutatkozunk', 'menun' => array(1,1)),
     'galeria' => array('fajl' => 'galeria', 'szoveg' => 'Galéria', 'menun' => array(1,1)),
     '/' => array('fajl' => 'cimlap', 'szoveg' => 'Kezdőlap', 'menun' => array(1,1)),
     

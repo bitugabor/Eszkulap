@@ -30,7 +30,7 @@
 	}
 
 	
-	var_dump($_POST);
+
 
 	if($rendben==3) {
         try {
@@ -47,10 +47,15 @@
         }
     	}
 		if($rendben == 3) {
-			header("Location: uzenet.php");
+			
+			
+			header("Location: ../templates/pages/uzenetek.tpl.php");
 			exit();
 		  }
+		  
+		 
+	  
 	?>
-
+	
 	</body>
 </html>
